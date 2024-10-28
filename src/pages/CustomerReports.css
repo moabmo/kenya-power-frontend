@@ -1,0 +1,30 @@
+/* Apply Comfortaa font to the entire container and all text elements */
+.customer-reports-container, .user-card, .report-table, th, td, .MuiTypography-root {
+    font-family: 'Comfortaa', sans-serif !important;
+}
+
+.customer-reports-container {
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+.user-card {
+    background-color: #e8f4ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.report-table {
+    width: 100%;
+    margin-top: 1em;
+}
+
+th, td {
+    padding: 0.75em;
+}
+
+th {
+    background-color: #f7b600;
+    color: #333;
+    font-weight: bold;
+}

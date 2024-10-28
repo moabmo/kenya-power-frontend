@@ -1,0 +1,34 @@
+/* src/components/ReportForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input, textarea {
+    padding: 0.75em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Comfortaa', sans-serif !important;
+}
+
+button {
+    padding: 0.75em;
+    font-size: 1em;
+    font-family: 'Comfortaa', sans-serif !important; /* Enforce Comfortaa font */
+    color: white;
+    background-color: #00529b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: none; /* Ensure sentence case */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #004080;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

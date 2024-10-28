@@ -1,0 +1,39 @@
+.admin-container {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #00529b;
+    text-align: center;
+    font-size: 2em;
+}
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    padding: 0.75em;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f7b600;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e8f4ff;
+}

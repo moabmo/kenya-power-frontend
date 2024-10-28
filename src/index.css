@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* src/index.css */
+
+/* Apply Comfortaa font universally with high specificity */
+body, html, #root, * {
+    font-family: 'Comfortaa', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    /* color: #333; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Ensure headers, buttons, inputs, and text elements have Comfortaa */
+h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, select, table, th, td {
+    font-family: 'Comfortaa', sans-serif !important;
 }
